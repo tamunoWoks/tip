@@ -11,3 +11,6 @@ def dollars_to_float(d):
 def percent_to_float(p):
     percentage = float(p.replace('%', ''))
     return percentage/100
+
+if __name__ == '__main__':
+    main()
